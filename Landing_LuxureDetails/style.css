@@ -412,7 +412,10 @@ body{
         padding: 150px 300px;
         height: 400px;
     }
-
+    .video__play{
+        font-size: 15px;
+        text-align: center;
+    }
     .your__car-inner {
         grid-template-columns: 1fr;
         gap: 60px;
@@ -430,13 +433,12 @@ body{
     }
 
     .luxury__inner {
-        padding: 60px 40px;
-        text-align: center;
+        padding: 60px 30px;
+        text-align: left;
     }
 
     .luxury__inner-title {
         font-size: 36px;
-        max-width: 100%;
     }
 
     .footer__foter {
@@ -497,7 +499,10 @@ body{
         padding: 100px 200px;
         height: 300px;
     }
-
+.your__car-inner{
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
     .footer__details-nav {
         grid-template-columns: 1fr;
         gap: 40px;
@@ -515,129 +520,21 @@ body{
     }
 }
 
-@media (max-width: 576px) {
-    .container {
-        padding: 0 15px;
-    }
 
-    .header__title {
-        font-size: 36px;
-        text-align: center;
-    }
-
-    .header__text {
-        font-size: 16px;
-        padding: 0 10px;
-    }
-
-    .connect {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .detailing__text {
-        font-size: 18px;
-        text-align: center;
-    }
-
-    .deteiling__desc-title {
+@media (max-width: 450px){
+    .header__title{
         font-size: 28px;
     }
-
-    .detailing__desc-text {
-        font-size: 18px;
-    }
-
-    .detailing_gallery {
-        grid-template-columns: 1fr;
-        gap: 40px;
-    }
-
-    .detailing__gallery-item {
-        text-align: center;
-    }
-
-    .video__inner {
-        padding: 80px 20px;
-        height: 250px;
-    }
-
-    .video__play {
-        font-size: 18px;
-    }
-
-    .inner__title {
-        font-size: 32px;
-        text-align: center;
-        max-width: 100%;
-    }
-
-    .items__title {
-        flex-direction: column;
-        text-align: center;
-        gap: 10px;
-    }
-    .items__title img{
-        width: 40px;
-        height: 40px;
-    }
-    .items__title-title {
-        font-size: 20px;
-    }
-
-    .luxury__inner {
-        height: 400px;
-        padding: 40px 20px;
-    }
-
-    .luxury__inner-title {
-        font-size: 28px;
-    }
-
-    .luxury__inner-btn,
-    .inner_get {
-        justify-content: center;
-    }
-
-    .footer__details-text {
-        text-align: center;
-        max-width: 100%;
-    }
-
-    .footer__details-inner {
-        text-align: center;
-    }
-}
-
-@media (max-width: 380px) {
-    .header__title {
-        font-size: 28px;
-    }
-
-    .header__btn {
+    .header__btn{
         padding: 15px 20px;
         font-size: 14px;
     }
-
-    .menu__list {
+    .menu__list{
         gap: 15px;
     }
-
-    .deteiling__desc-title {
-        font-size: 24px;
-    }
-
-    .detailing__gallery-title {
-        font-size: 20px;
-    }
-
-    .luxury__inner-title {
-        font-size: 24px;
-    }
-
-    .luxury__inner-btn,
-    .inner_get {
-        font-size: 18px;
+    .video__inner{
+        padding: 80px 20px;
+        height: 250px;
     }
 }
 
